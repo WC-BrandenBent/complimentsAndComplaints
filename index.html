@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Store Text in localStorage</title>
+</head>
+
+<body>
+	<h1>Please Be Nice (or not...)</h1>
+	<div class="form-container">
+		<form id="complimentForm">
+			<label for="complimentInput">Enter Compliments:</label>
+			<input type="text" id="complimentInput" name="complimentInput" placeholder="feed my ego...."required>
+			<button type="submit" id="complimentButton">Submit</button>
+		</form>
+
+		<form id="complaintForm">
+			<label for="complaintInput">Enter Complaints:</label>
+			<input type="text" id="complaintInput" name="complaintInput" placeholder="please dont....">
+			<button type="submit" id="complaintButton">Submit</button>
+		</form>
+	</div>
+
+
+	<!-- <div id="display"></div>
+	<div id="textList"></div> -->
+
+	<table>
+		<tr>
+			<td id="complimentsList"></td>
+			<td id="complaintsList"></td>
+		</tr>
+	</table>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
